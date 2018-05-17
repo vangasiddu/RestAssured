@@ -113,15 +113,17 @@
 
 		<plugins>
 
-			<plugin>
+				<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.3</version>
 				<configuration>
 					<source>${jdk.version}</source>
 					<target>${jdk.version}</target>
+					<fork>true</fork>
+					<executable>C:\Program Files\Java\jdk1.8.0_102\bin\javac</executable>
 				</configuration>
-			</plugin> 
+			</plugin>
 
 			<!-- embedded Jetty server, for testing -->
 			<plugin>
@@ -137,7 +139,7 @@
 			</plugin>
 
 			<!-- configure Eclipse workspace -->
-			<plugin>
+			<!-- <plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-eclipse-plugin</artifactId>
 				<version>2.9</version>
@@ -147,7 +149,7 @@
 					<wtpversion>2.0</wtpversion>
 					<wtpContextName>spring-mvc-form</wtpContextName>
 				</configuration>
-			</plugin>
+			</plugin> -->
 		<!-- 	<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-war-plugin</artifactId>
