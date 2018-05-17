@@ -120,8 +120,7 @@
 				<configuration>
 					<source>${jdk.version}</source>
 					<target>${jdk.version}</target>
-					<fork>true</fork>
-					<executable>C:\Program Files\Java\jdk1.8.0_102\bin\javac</executable>
+					
 				</configuration>
 			</plugin>
 
