@@ -100,11 +100,11 @@
 			<version>2.8.1</version>
 		</dependency>
 	<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
-<dependency>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-compiler-plugin</artifactId>
-    <version>3.3</version>
-</dependency>
+		<!-- <dependency>
+		    <groupId>org.apache.maven.plugins</groupId>
+		    <artifactId>maven-compiler-plugin</artifactId>
+		    <version>3.3</version>
+		</dependency> -->
 	
 
 	</dependencies>
@@ -113,7 +113,7 @@
 
 		<plugins>
 
-			<!--<plugin>
+			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.3.9</version>
@@ -121,7 +121,7 @@
 					<source>${jdk.version}</source>
 					<target>${jdk.version}</target>
 				</configuration>
-			</plugin> -->
+			</plugin> 
 
 			<!-- embedded Jetty server, for testing -->
 			<plugin>
