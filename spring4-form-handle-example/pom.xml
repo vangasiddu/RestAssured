@@ -39,7 +39,7 @@
 		</dependency>
 
 		<!-- Spring Web <dependency> <groupId>org.springframework</groupId> <artifactId>spring-expression</artifactId> 
-			<version>${spring.version}</version> </dependency> -->
+			<version>${spring.version}</version> </dependency>  -->
 
 		<!-- Spring JDB C -->
 		<dependency>
