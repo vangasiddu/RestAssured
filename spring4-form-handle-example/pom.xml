@@ -60,7 +60,7 @@
 			<version>3.0</version>
 		</dependency>
 
-		<!-- HyperSQL DB  -->
+		<!-- HyperSQL DB    -->
 		<dependency>
 			<groupId>org.hsqldb</groupId>
 			<artifactId>hsqldb</artifactId>
