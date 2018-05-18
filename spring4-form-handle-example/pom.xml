@@ -137,7 +137,7 @@
 				</configuration>
 			</plugin>
 
-			<!-- configure Eclipse workspace -->
+			<!-- configure Eclipse workspace  -->
 			<!-- <plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-eclipse-plugin</artifactId>
